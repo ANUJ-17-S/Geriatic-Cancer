@@ -1,0 +1,53 @@
+background-image: url('backg1.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100%;
+
+
+.cancer-container{
+    padding-left: 10px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.cancer-container::-webkit-scrollbar{
+    display: none;
+}
+
+.cancer-card{
+    flex: 0 0 auto;
+    width: 250px;
+    height: 450px;
+    margin-right: 10px;
+}
+
+.cancer-image{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+.cancer-thumb{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.cancer-info{
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+}
+
+
+
+.cancer-short-des{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 5px 0;
+}
